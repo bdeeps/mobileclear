@@ -1,0 +1,908 @@
+{
+  "title": "The history of the mobile phone",
+  "tagline": "Eighty years from phones bolted into cars to a billion Indian connections and a supercomputer in every pocket.",
+  "intro": "Radio could carry voices long before anyone could carry the radio. The breakthrough was an idea from 1947: cut a city into small cells and reuse the same channels again and again. It took computers and chips to make it work. Then phones went digital, learned to text, joined the internet, and in India, cheap data in 2016 brought hundreds of millions of people online for the first time.",
+  "eras": [
+    {
+      "id": "radio",
+      "name": "Radio telephones",
+      "from": 1940,
+      "to": 1972,
+      "color": "#c49bff",
+      "summary": "Phones in cars, one big transmitter per city, and the idea of cells on paper."
+    },
+    {
+      "id": "first",
+      "name": "The first mobiles",
+      "from": 1973,
+      "to": 1990,
+      "color": "#ff7a59",
+      "summary": "A handheld call in New York, then analogue 1G networks in Japan, the Nordic countries and the USA. Brick phones for the rich."
+    },
+    {
+      "id": "digital",
+      "name": "Going digital",
+      "from": 1985,
+      "to": 1998,
+      "color": "#ffb547",
+      "summary": "GSM turns voice into encrypted numbers and adds texting. Mobiles spread worldwide."
+    },
+    {
+      "id": "india",
+      "name": "India dials in",
+      "from": 1995,
+      "to": 2016,
+      "color": "#5ce1a9",
+      "summary": "From a first call in Kolkata to a billion connections, cheap handsets and then the Jio data revolution."
+    },
+    {
+      "id": "smart",
+      "name": "Phones become computers",
+      "from": 1994,
+      "to": 2008,
+      "color": "#7aa2ff",
+      "summary": "Email, the mobile web, cameras, 3G, then touchscreens and app stores."
+    },
+    {
+      "id": "data",
+      "name": "Everything is data",
+      "from": 2009,
+      "to": 2018,
+      "color": "#8ef0ff",
+      "summary": "4G carries calls, video and payments as internet packets."
+    },
+    {
+      "id": "fast",
+      "name": "5G and after",
+      "from": 2019,
+      "to": 2026,
+      "color": "#f5d316",
+      "summary": "Wider channels, beam-steering antennas and new bands, and the challenge of e-waste."
+    }
+  ],
+  "events": [
+    {
+      "year": 1942,
+      "date": "11 August 1942",
+      "era": "radio",
+      "art": "sinewave",
+      "title": "A secret way to hop between frequencies",
+      "who": "Hedy Lamarr and George Antheil",
+      "where": "Los Angeles, USA",
+      "country": "USA",
+      "text": "Film star Hedy Lamarr and composer George Antheil patented a way to stop radio-guided torpedoes being jammed: the sender and receiver hop between frequencies in the same secret order. The navy shelved it at the time.",
+      "why": "Frequency hopping and spread-spectrum ideas later helped make crowded digital radio, including some phone systems, Bluetooth and Wi-Fi, work.",
+      "sources": [
+        0,
+        1
+      ]
+    },
+    {
+      "year": 1946,
+      "date": "17 June 1946",
+      "era": "radio",
+      "art": "telephone",
+      "title": "Phones in cars",
+      "who": "AT&T and Southwestern Bell",
+      "where": "St. Louis, USA",
+      "country": "USA",
+      "text": "The Mobile Telephone Service let drivers make calls from a heavy radio set in the boot. One big transmitter covered the whole city, so only a few calls could happen at once, and an operator connected every one.",
+      "why": "It showed the demand, and the limit: one tower for a whole city could never serve many people.",
+      "sources": [
+        2
+      ]
+    },
+    {
+      "year": 1947,
+      "date": "11 December 1947",
+      "era": "radio",
+      "art": "word",
+      "key": true,
+      "title": "The idea of cells",
+      "who": "Douglas H. Ring and W. Rae Young, Bell Labs",
+      "where": "New Jersey, USA",
+      "country": "USA",
+      "text": "In an internal memo, Bell Labs engineers proposed covering an area with many small low-power cells, each reusing the same channels as cells far enough away, and hexagons were used to draw them. The electronics to switch calls between cells did not exist yet.",
+      "why": "Frequency reuse in small cells is still how every mobile network works.",
+      "box": "cells",
+      "sources": [
+        3,
+        4
+      ]
+    },
+    {
+      "year": 1973,
+      "date": "3 April 1973",
+      "era": "first",
+      "art": "phone",
+      "key": true,
+      "title": "The first handheld mobile call",
+      "who": "Martin Cooper, Motorola",
+      "where": "New York City, USA",
+      "country": "USA",
+      "text": "Standing on Sixth Avenue, Motorola engineer Martin Cooper called Joel Engel, his rival at Bell Labs, on a prototype DynaTAC. It weighed about 1.1 kg and its battery gave some 30 minutes of talk after 10 hours of charging.",
+      "why": "It proved a phone could belong to a person, not a car or a building.",
+      "box": "anatomy",
+      "sources": [
+        5,
+        6
+      ]
+    },
+    {
+      "year": 1979,
+      "date": "1 December 1979",
+      "era": "first",
+      "art": "earth",
+      "title": "The first cellular network",
+      "who": "NTT",
+      "where": "Tokyo, Japan",
+      "country": "Japan",
+      "text": "Nippon Telegraph and Telephone switched on the world's first automatic cellular network, for car phones in Tokyo. It was analogue 1G.",
+      "why": "Many cells, automatic handover between them: the cellular idea finally worked at city scale.",
+      "sources": [
+        7,
+        8
+      ]
+    },
+    {
+      "year": 1981,
+      "date": "1 October 1981",
+      "era": "first",
+      "art": "earth",
+      "title": "NMT: phones that cross borders",
+      "who": "Nordic telecom administrations",
+      "where": "Sweden and Norway",
+      "country": "Sweden",
+      "text": "The Nordic Mobile Telephone system opened in Sweden, then Norway, Denmark and Finland. It was the first network to let you roam across countries.",
+      "why": "Countries agreeing one standard became the model for GSM.",
+      "sources": [
+        9
+      ]
+    },
+    {
+      "year": 1983,
+      "date": "13 October 1983",
+      "era": "first",
+      "art": "phone",
+      "title": "AMPS and the brick phone",
+      "who": "Ameritech and Motorola",
+      "where": "Chicago, USA",
+      "country": "USA",
+      "text": "America's first commercial cellular network, AMPS, opened in Chicago. The Motorola DynaTAC 8000X, approved that September, went on sale for $3,995.",
+      "why": "Mobile phones became something you could buy, if you were rich.",
+      "sources": [
+        10,
+        6
+      ]
+    },
+    {
+      "year": 1985,
+      "date": "1985",
+      "era": "digital",
+      "art": "word",
+      "title": "Why a text is 160 characters",
+      "who": "Friedhelm Hillebrand",
+      "where": "Bonn, Germany",
+      "country": "Germany",
+      "text": "Working on the GSM standard, Friedhelm Hillebrand typed out sentences and questions on a typewriter and counted: almost all fitted in 160 characters. That is exactly what fits in 140 bytes at 7 bits a letter.",
+      "why": "The limit shaped texting, and later tweets.",
+      "box": "call",
+      "sources": [
+        11,
+        12
+      ]
+    },
+    {
+      "year": 1991,
+      "date": "1 July 1991",
+      "era": "digital",
+      "art": "chip",
+      "key": true,
+      "title": "The first GSM call",
+      "who": "Harri Holkeri, Radiolinja",
+      "where": "Helsinki, Finland",
+      "country": "Finland",
+      "text": "Finland's former prime minister Harri Holkeri made the first call on a GSM network, built by Nokia and Siemens for the operator Radiolinja. GSM was digital: voice became numbers, encrypted over the air.",
+      "why": "GSM became the world's standard, and the one India adopted.",
+      "box": "generations",
+      "sources": [
+        13,
+        14
+      ]
+    },
+    {
+      "year": 1992,
+      "date": "3 December 1992",
+      "era": "digital",
+      "art": "word",
+      "key": true,
+      "title": "\"Merry Christmas\": the first text",
+      "who": "Neil Papworth",
+      "where": "Newbury, UK",
+      "country": "UK",
+      "text": "Engineer Neil Papworth typed \"Merry Christmas\" on a computer and sent it to the phone of Vodafone director Richard Jarvis. Phones could not yet type texts back.",
+      "why": "SMS grew into the most used data service in the world for twenty years.",
+      "box": "call",
+      "sources": [
+        11,
+        15
+      ]
+    },
+    {
+      "year": 1994,
+      "date": "16 August 1994",
+      "era": "digital",
+      "art": "phone",
+      "title": "A phone with a touchscreen",
+      "who": "IBM and BellSouth",
+      "where": "USA",
+      "country": "USA",
+      "text": "The IBM Simon Personal Communicator went on sale. It had a touchscreen, email, a calendar and apps, which is why it is often called the first smartphone. Its battery lasted about an hour.",
+      "why": "It showed a phone could also be a pocket computer.",
+      "sources": [
+        16
+      ]
+    },
+    {
+      "year": 1995,
+      "date": "31 July 1995",
+      "era": "india",
+      "art": "phone",
+      "key": true,
+      "title": "India's first mobile call",
+      "who": "Jyoti Basu and Sukh Ram",
+      "where": "Kolkata and New Delhi, India",
+      "country": "India",
+      "text": "West Bengal's Chief Minister Jyoti Basu, at Writers' Building in Kolkata, called Union Telecom Minister Sukh Ram in Delhi on a Nokia handset, over the Modi Telstra network. Calls were costly, and for years even receiving one was charged.",
+      "why": "It began the story of the world's second-largest mobile market.",
+      "box": "generations",
+      "sources": [
+        17,
+        18,
+        19
+      ]
+    },
+    {
+      "year": 1999,
+      "date": "19 January 1999",
+      "era": "smart",
+      "art": "pager",
+      "title": "BlackBerry and email in your pocket",
+      "who": "Research In Motion (Mike Lazaridis)",
+      "where": "Waterloo, Canada",
+      "country": "Canada",
+      "text": "RIM launched the BlackBerry 850, a two-way pager with a tiny keyboard that pushed email to you. Phone models followed from 2002 and became the favourite of business people and politicians.",
+      "why": "Always-on email made the phone a work tool, and \"CrackBerry\" a word.",
+      "sources": [
+        20,
+        21
+      ]
+    },
+    {
+      "year": 1999,
+      "date": "22 February 1999",
+      "era": "smart",
+      "art": "digital",
+      "title": "The mobile internet begins",
+      "who": "NTT DoCoMo",
+      "where": "Tokyo, Japan",
+      "country": "Japan",
+      "text": "DoCoMo's i-mode service put simple web pages, email and ringtone downloads on ordinary phones. Tens of millions of Japanese signed up within a few years.",
+      "why": "It proved people would use the internet on a phone.",
+      "sources": [
+        22
+      ]
+    },
+    {
+      "year": 2000,
+      "date": "November 2000",
+      "era": "smart",
+      "art": "selfie",
+      "title": "A camera in the phone",
+      "who": "Sharp and J-Phone",
+      "where": "Japan",
+      "country": "Japan",
+      "text": "The Sharp J-SH04 was among the first phones sold with a built-in camera, 0.11 megapixels, and you could send the photo to another phone.",
+      "why": "Today's phone cameras sell more cameras than every other kind put together (see CameraClear).",
+      "sources": [
+        23
+      ]
+    },
+    {
+      "year": 2001,
+      "date": "1 October 2001",
+      "era": "smart",
+      "art": "chip",
+      "title": "3G goes live",
+      "who": "NTT DoCoMo",
+      "where": "Tokyo, Japan",
+      "country": "Japan",
+      "text": "DoCoMo launched FOMA, the first commercial 3G (WCDMA) network, promising up to 384 kbit/s for video calls and faster web.",
+      "why": "Data, not voice, began to drive network design.",
+      "sources": [
+        24,
+        25
+      ]
+    },
+    {
+      "year": 2003,
+      "date": "2003",
+      "era": "india",
+      "art": "phone",
+      "title": "The phone for everyone",
+      "who": "Nokia",
+      "where": "Worldwide, much of it made for India",
+      "country": "Finland",
+      "text": "The Nokia 1100, a tough, cheap phone with a torch and a dust-proof keypad, came out in 2003. It sold about 250 million units, among the best-selling electronic gadgets ever, many of them in India.",
+      "why": "Cheap, rugged handsets brought mobile phones to villages and small towns.",
+      "sources": [
+        26
+      ]
+    },
+    {
+      "year": 2007,
+      "date": "29 June 2007",
+      "era": "smart",
+      "art": "selfie",
+      "key": true,
+      "title": "The iPhone",
+      "who": "Apple",
+      "where": "USA",
+      "country": "USA",
+      "text": "Apple's iPhone, announced on 9 January and sold from 29 June, replaced the keypad with a large multi-touch screen and a full web browser. Its App Store followed in 2008.",
+      "why": "It set the shape of the modern smartphone: one big screen, fingers, apps.",
+      "box": "anatomy",
+      "sources": [
+        27
+      ]
+    },
+    {
+      "year": 2008,
+      "date": "22 October 2008",
+      "era": "smart",
+      "art": "chip",
+      "key": true,
+      "title": "Android arrives",
+      "who": "Google, HTC and T-Mobile",
+      "where": "USA",
+      "country": "USA",
+      "text": "The HTC Dream (T-Mobile G1) was the first phone running Android. Because any maker could use it, Android spread to phones at every price.",
+      "why": "Low-cost Android phones are what most people in India and the world use today.",
+      "sources": [
+        28,
+        29
+      ]
+    },
+    {
+      "year": 2008,
+      "date": "11 December 2008",
+      "era": "india",
+      "art": "chip",
+      "title": "3G reaches India",
+      "who": "MTNL",
+      "where": "Delhi, India",
+      "country": "India",
+      "text": "State-owned MTNL started India's first 3G service in Delhi. Private operators followed after the 2010 spectrum auction.",
+      "why": "Mobile internet in India began to be more than slow text pages.",
+      "sources": [
+        30
+      ]
+    },
+    {
+      "year": 2009,
+      "date": "14 December 2009",
+      "era": "data",
+      "art": "chip",
+      "key": true,
+      "title": "4G LTE switches on",
+      "who": "TeliaSonera",
+      "where": "Stockholm and Oslo",
+      "country": "Sweden",
+      "text": "TeliaSonera opened the first commercial LTE networks in Stockholm and Oslo, using OFDM and MIMO antennas. At first you needed a USB modem, not a phone.",
+      "why": "LTE made the network carry everything, even voice, as internet packets.",
+      "box": "radio",
+      "sources": [
+        31,
+        32
+      ]
+    },
+    {
+      "year": 2012,
+      "date": "10 April 2012",
+      "era": "india",
+      "art": "chip",
+      "title": "India's first 4G",
+      "who": "Bharti Airtel",
+      "where": "Kolkata, India",
+      "country": "India",
+      "text": "Airtel opened India's first 4G network in Kolkata, using TD-LTE. For years 4G stayed small, pricey and mostly in big cities.",
+      "why": "India joined the 4G world, though the boom was still to come.",
+      "sources": [
+        33
+      ]
+    },
+    {
+      "year": 2015,
+      "date": "December 2015",
+      "era": "india",
+      "art": "person",
+      "key": true,
+      "title": "A billion mobile connections",
+      "who": "TRAI",
+      "where": "India",
+      "country": "India",
+      "text": "TRAI's figures showed India's wireless subscriptions passing 1 billion (1.01 billion) by the end of 2015, with total phone connections having crossed 1 billion that May. Many people had more than one SIM.",
+      "why": "India became the second country, after China, with a billion mobile connections.",
+      "sources": [
+        34,
+        35
+      ]
+    },
+    {
+      "year": 2016,
+      "date": "5 September 2016",
+      "era": "india",
+      "art": "digital",
+      "key": true,
+      "title": "Jio and the data revolution",
+      "who": "Reliance Jio",
+      "where": "India",
+      "country": "India",
+      "text": "Reliance Jio launched a 4G-only network with free voice calls and months of free data. Rivals slashed prices. According to TRAI, the average price of 1 GB fell from about ₹269 in 2014 to about ₹12 in 2018.",
+      "why": "Hundreds of millions of Indians came online for the first time, on phones, and India became one of the world's biggest users of mobile data.",
+      "box": "generations",
+      "sources": [
+        36,
+        37
+      ]
+    },
+    {
+      "year": 2019,
+      "date": "3 April 2019",
+      "era": "fast",
+      "art": "chip",
+      "key": true,
+      "title": "5G arrives",
+      "who": "SK Telecom, KT, LG U+ and Verizon",
+      "where": "South Korea and USA",
+      "country": "South Korea",
+      "text": "South Korea's three operators and America's Verizon switched on the first 5G phone networks within hours of each other. 5G adds wider channels, beam-steering antennas and millimetre-wave bands.",
+      "why": "Faster, lower-delay links, and wireless broadband for homes.",
+      "box": "radio",
+      "sources": [
+        38
+      ]
+    },
+    {
+      "year": 2022,
+      "date": "1 October 2022",
+      "era": "fast",
+      "art": "chip",
+      "key": true,
+      "title": "5G in India",
+      "who": "Government of India, Jio and Airtel",
+      "where": "New Delhi, India",
+      "country": "India",
+      "text": "Prime Minister Narendra Modi launched 5G at the India Mobile Congress. It spread unusually fast: Ookla found India's median mobile download speed rose from about 14 Mbit/s in September 2022 to about 50 Mbit/s in August 2023.",
+      "why": "One of the fastest 5G rollouts anywhere, using the 3.5 GHz and 700 MHz bands.",
+      "box": "generations",
+      "sources": [
+        39,
+        40
+      ]
+    },
+    {
+      "year": 2024,
+      "date": "March 2024",
+      "era": "fast",
+      "art": "earth",
+      "title": "62 million tonnes of e-waste",
+      "who": "ITU and UNITAR",
+      "where": "Geneva, Switzerland",
+      "country": "Switzerland",
+      "text": "The Global E-waste Monitor 2024 reported that the world threw away 62 million tonnes of electronics in 2022, and only 22.3% was properly collected and recycled.",
+      "why": "Old phones hold gold, copper and cobalt: recycling them matters.",
+      "box": "power",
+      "sources": [
+        41
+      ]
+    }
+  ],
+  "firsts": [
+    {
+      "label": "Handheld mobile call",
+      "value": "1973",
+      "who": "Martin Cooper, Motorola, New York"
+    },
+    {
+      "label": "Cellular network",
+      "value": "1979",
+      "who": "NTT, Tokyo"
+    },
+    {
+      "label": "GSM call",
+      "value": "1991",
+      "who": "Harri Holkeri, Finland"
+    },
+    {
+      "label": "Text message (SMS)",
+      "value": "1992",
+      "who": "Neil Papworth, UK"
+    },
+    {
+      "label": "Mobile call in India",
+      "value": "1995",
+      "who": "Jyoti Basu to Sukh Ram, Kolkata to Delhi"
+    },
+    {
+      "label": "4G network",
+      "value": "2009",
+      "who": "TeliaSonera, Stockholm and Oslo"
+    },
+    {
+      "label": "5G phone networks",
+      "value": "2019",
+      "who": "South Korea and USA"
+    }
+  ],
+  "people": [
+    {
+      "name": "Hedy Lamarr",
+      "life": "1914 – 2000",
+      "role": "Actor and inventor",
+      "from": "Austria / USA",
+      "note": "Co-invented frequency hopping, an idea behind spread-spectrum radio."
+    },
+    {
+      "name": "Martin Cooper",
+      "life": "born 1928",
+      "role": "Engineer, Motorola",
+      "from": "USA",
+      "note": "Made the first public call on a handheld mobile phone in 1973."
+    },
+    {
+      "name": "Friedhelm Hillebrand",
+      "life": "born 1940",
+      "role": "Telecom engineer",
+      "from": "Germany",
+      "note": "Chaired the GSM group that set the 160-character length of an SMS."
+    },
+    {
+      "name": "Neil Papworth",
+      "life": "born 1969",
+      "role": "Software engineer",
+      "from": "UK",
+      "note": "Sent the first text message, \"Merry Christmas\", in 1992."
+    },
+    {
+      "name": "Mike Lazaridis",
+      "life": "born 1961",
+      "role": "Founder of Research In Motion",
+      "from": "Canada",
+      "note": "Created the BlackBerry and its push email."
+    },
+    {
+      "name": "Jyoti Basu",
+      "life": "1914 – 2010",
+      "role": "Chief Minister of West Bengal",
+      "from": "India",
+      "note": "Made India's first mobile call, from Kolkata, on 31 July 1995."
+    }
+  ],
+  "series": [
+    {
+      "id": "pricegb",
+      "title": "India: average price of 1 GB of mobile data",
+      "unit": "₹ per GB",
+      "log": false,
+      "after": "india",
+      "caption": "TRAI figures: the price of mobile data fell by more than 95% after 4G and Jio arrived.",
+      "points": [
+        {
+          "year": 2014,
+          "value": 268.97,
+          "label": "2014: ₹268.97 (TRAI)"
+        },
+        {
+          "year": 2015,
+          "value": 226,
+          "label": "2015: ₹226 (TRAI)"
+        },
+        {
+          "year": 2016,
+          "value": 75.57,
+          "label": "2016: ₹75.57, the year Jio launched (TRAI)"
+        },
+        {
+          "year": 2017,
+          "value": 19.35,
+          "label": "2017: ₹19.35 (TRAI)"
+        },
+        {
+          "year": 2018,
+          "value": 11.78,
+          "label": "2018: ₹11.78 (TRAI)"
+        },
+        {
+          "year": 2023,
+          "value": 9.44,
+          "label": "April–June 2023: ₹9.44 revenue per GB (TRAI Performance Indicators)"
+        }
+      ]
+    },
+    {
+      "id": "subs",
+      "title": "India: wireless (mobile) subscriptions",
+      "unit": "million",
+      "log": true,
+      "after": "data",
+      "caption": "From ten million in 2002 to well over a billion: counted as SIM connections, and many people have two.",
+      "points": [
+        {
+          "year": 2002,
+          "value": 10.5,
+          "label": "Dec 2002: 10.5 million"
+        },
+        {
+          "year": 2010,
+          "value": 752,
+          "label": "Dec 2010: 752 million (TRAI)"
+        },
+        {
+          "year": 2015,
+          "value": 1011,
+          "label": "Dec 2015: 1.01 billion (TRAI)"
+        },
+        {
+          "year": 2026,
+          "value": 1289,
+          "label": "April 2026: 1,289 million (TRAI via Wikipedia)"
+        }
+      ]
+    }
+  ],
+  "facts": [
+    "A text message is 160 characters because that is what fits in 140 bytes at 7 bits a letter. In Hindi (Unicode) only 70 fit.",
+    "The first handheld mobile weighed about 1.1 kg and gave some 30 minutes of talk.",
+    "A 3.5 GHz radio photon carries about a millionth of the energy needed to knock an electron off an atom.",
+    "Your phone reports signal strength around −80 to −110 dBm: less than a millionth of a millionth of a watt.",
+    "In 2014 a gigabyte of mobile data in India cost about ₹269; by 2018 it was about ₹12."
+  ],
+  "sources": [
+    {
+      "title": "Hedy Lamarr",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Hedy_Lamarr"
+    },
+    {
+      "title": "US Patent 2,292,387, Secret Communication System",
+      "publisher": "Google Patents",
+      "url": "https://patents.google.com/patent/US2292387A/en"
+    },
+    {
+      "title": "Mobile Telephone Service",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Mobile_Telephone_Service"
+    },
+    {
+      "title": "Cellular network",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Cellular_network"
+    },
+    {
+      "title": "Frequency reuse",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Frequency_reuse"
+    },
+    {
+      "title": "Martin Cooper (inventor)",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Martin_Cooper_(inventor)"
+    },
+    {
+      "title": "Motorola DynaTAC",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Motorola_DynaTAC"
+    },
+    {
+      "title": "1G",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/1G"
+    },
+    {
+      "title": "History of mobile phones",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/History_of_mobile_phones"
+    },
+    {
+      "title": "Nordic Mobile Telephone",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Nordic_Mobile_Telephone"
+    },
+    {
+      "title": "Advanced Mobile Phone System",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Advanced_Mobile_Phone_System"
+    },
+    {
+      "title": "SMS",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/SMS"
+    },
+    {
+      "title": "Friedhelm Hillebrand",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Friedhelm_Hillebrand"
+    },
+    {
+      "title": "GSM",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/GSM"
+    },
+    {
+      "title": "Radiolinja",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Radiolinja"
+    },
+    {
+      "title": "Neil Papworth",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Neil_Papworth"
+    },
+    {
+      "title": "IBM Simon",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/IBM_Simon"
+    },
+    {
+      "title": "India's 1st mobile phone call was between Sukh Ram and Jyoti Basu",
+      "publisher": "The Hans India",
+      "url": "https://www.thehansindia.com/news/national/indias-1st-mobile-phone-call-was-between-sukh-ram-and-jyoti-basu-993064"
+    },
+    {
+      "title": "On this day in telephone history: July 31st 1995",
+      "publisher": "The Telephone Museum",
+      "url": "https://telephone-museum.org/telephone-history-263/"
+    },
+    {
+      "title": "Telecommunications in India",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Telecommunications_in_India"
+    },
+    {
+      "title": "BlackBerry Limited",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/BlackBerry_Limited"
+    },
+    {
+      "title": "BlackBerry 850",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/BlackBerry_850"
+    },
+    {
+      "title": "I-mode",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/I-mode"
+    },
+    {
+      "title": "Camera phone",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Camera_phone"
+    },
+    {
+      "title": "3G",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/3G"
+    },
+    {
+      "title": "FOMA",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/FOMA"
+    },
+    {
+      "title": "Nokia 1100",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Nokia_1100"
+    },
+    {
+      "title": "IPhone (1st generation)",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/IPhone_(1st_generation)"
+    },
+    {
+      "title": "HTC Dream",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/HTC_Dream"
+    },
+    {
+      "title": "Android (operating system)",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Android_(operating_system)"
+    },
+    {
+      "title": "MTNL to launch 3G services on December 11th",
+      "publisher": "MediaNama",
+      "url": "https://www.medianama.com/2008/12/223-3g-in-india-mtnl-to-launch-3g-services-on-december-11th-limitations/"
+    },
+    {
+      "title": "LTE (telecommunication)",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/LTE_(telecommunication)"
+    },
+    {
+      "title": "4G",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/4G"
+    },
+    {
+      "title": "Airtel launches India's first 4G service",
+      "publisher": "Bharti Airtel",
+      "url": "https://www.bharti.com/press-release-2012-2013-airtel-launches-indias-first-4g-service.html"
+    },
+    {
+      "title": "India ends 2015 with over 1 billion telephone subscribers",
+      "publisher": "Telecompaper",
+      "url": "https://www.telecompaper.com/news/india-ends-2015-with-over-1-billion-telephone-subscribers--1130916"
+    },
+    {
+      "title": "Telephone connections cross 100 crore",
+      "publisher": "Deccan Herald",
+      "url": "https://www.deccanherald.com/business/telephone-connections-cross-100-cr-2138477"
+    },
+    {
+      "title": "Jio",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Jio"
+    },
+    {
+      "title": "Mobile data price down by 95%, but revenue up 2.5 times in 5 yrs: TRAI",
+      "publisher": "Business Standard (PTI)",
+      "url": "https://www.business-standard.com/article/pti-stories/mobile-data-price-down-by-95-but-revenue-up-2-5-times-in-5-yrs-trai-119082101291_1.html"
+    },
+    {
+      "title": "5G",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/5G"
+    },
+    {
+      "title": "5G in India",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/5G_in_India"
+    },
+    {
+      "title": "5G drives India's speed ranking up 72 places",
+      "publisher": "The Tribune",
+      "url": "https://www.tribuneindia.com/news/india/5g-drives-indias-speed-ranking-up-72-places-549774"
+    },
+    {
+      "title": "Global E-waste Monitor 2024",
+      "publisher": "ITU / UNITAR",
+      "url": "https://ewastemonitor.info/the-global-e-waste-monitor-2024/"
+    },
+    {
+      "title": "TRAI telecom subscription reports",
+      "publisher": "Telecom Regulatory Authority of India",
+      "url": "https://www.trai.gov.in/release-publication/reports/telecom-subscriptions-reports"
+    },
+    {
+      "title": "The Indian Telecom Services Performance Indicators",
+      "publisher": "Telecom Regulatory Authority of India",
+      "url": "https://www.trai.gov.in/sites/default/files/2024-09/PIR_12032024_0.pdf"
+    },
+    {
+      "title": "IMT-2020",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/IMT-2020"
+    },
+    {
+      "title": "Specific absorption rate (India: 1.6 W/kg over 1 g from 2012)",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Specific_absorption_rate"
+    },
+    {
+      "title": "Mobile phone radiation and health",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Mobile_phone_radiation_and_health"
+    }
+  ]
+}

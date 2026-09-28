@@ -1,0 +1,111 @@
+{
+  "slug": "mobileclear",
+  "box": 71,
+  "date": "2026-10-06",
+  "title": "MobileClear",
+  "question": "How does a mobile phone work?",
+  "hook": "Your phone is a two-way radio that shouts to a tower up to a few kilometres away, proves who you are with a secret key, and hands your call from cell to cell without a click. Pull one apart in 3D, drive through a city of towers, and watch bits blur in the noise.",
+  "thumbText": "HOW A PHONE WORKS",
+  "field": "internet",
+  "minutes": 15,
+  "tags": [
+    "mobile phone",
+    "smartphone",
+    "cell tower",
+    "handover",
+    "radio waves",
+    "4G",
+    "5G",
+    "QAM",
+    "SIM",
+    "SMS",
+    "battery",
+    "SAR",
+    "Jio",
+    "India",
+    "three.js"
+  ],
+  "explainer": [
+    {
+      "title": "A radio joined to a computer",
+      "text": "Under the glass, the touch layer and the OLED screen, a phone is mostly battery. Beside it, a mainboard carries the system on a chip, the modem that speaks 4G and 5G, and the RF front-end that drives several antennas hidden in pieces of the metal frame."
+    },
+    {
+      "title": "A city cut into cells",
+      "text": "A phone sends at most about 0.2 W, so a city is covered by many towers, each with three sector antennas serving a patch called a cell. Signal fades as 1/d² in free space and faster among buildings. When a neighbouring cell is clearly stronger, the network hands your call over in milliseconds."
+    },
+    {
+      "title": "Bits on a wave",
+      "text": "Phones use bands from 700 MHz (43 cm waves that reach far and pass walls) to 3.5 GHz (8.6 cm waves with more room for data), plus 26 GHz millimetre waves for 5G. Each symbol is a dot on a constellation: QPSK carries 2 bits, 256-QAM carries 8. When noise blurs the dots, the phone falls back to a simpler pattern."
+    },
+    {
+      "title": "1G to 5G, and India's leap",
+      "text": "Analogue voice gave way to digital GSM and texts, then the mobile web, 4G video and 5G. India's first call was on 31 July 1995. After Jio launched in 2016, TRAI figures show a gigabyte of data falling from about ₹269 in 2014 to about ₹12 in 2018."
+    },
+    {
+      "title": "A call in five steps",
+      "text": "Dial, then your SIM answers a random challenge with a secret key that never leaves it. The core network pages the other phone, it rings, and your voice flows as 20 ms packets, 50 a second each way. A text is 140 bytes: 160 letters, or 70 in Hindi."
+    },
+    {
+      "title": "Battery, safety and e-waste",
+      "text": "A 5,000 mAh battery holds about 19 Wh. The screen, the chip and, in a weak signal, the radio drain it. Phone radio is non-ionising, far too weak per photon to damage DNA; its only proven effect is slight heating, capped in India at 1.6 W/kg over 1 g. Only about 22% of the world's e-waste is properly recycled."
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Cell",
+      "def": "The patch of ground served by one tower antenna; many cells tile a city like a honeycomb."
+    },
+    {
+      "term": "Handover",
+      "def": "Moving a phone's connection to a stronger cell without dropping the call."
+    },
+    {
+      "term": "Path loss",
+      "def": "How much weaker a radio signal gets between tower and phone, in decibels."
+    },
+    {
+      "term": "Wavelength",
+      "def": "The length of one wave: λ = c / f, 43 cm at 700 MHz and 8.6 cm at 3.5 GHz."
+    },
+    {
+      "term": "QAM",
+      "def": "A way of sending several bits per symbol by setting a wave's size and phase to one of many grid points."
+    },
+    {
+      "term": "SIM",
+      "def": "A tiny smart card holding a secret key that proves to the network who you are."
+    },
+    {
+      "term": "SMS",
+      "def": "A 140-byte text message carried on the network's control channel: 160 letters, or 70 in Unicode."
+    },
+    {
+      "term": "SAR",
+      "def": "Specific absorption rate: radio power absorbed by the body, limited in India to 1.6 W/kg over 1 g of tissue."
+    },
+    {
+      "term": "Non-ionising radiation",
+      "def": "Radiation whose photons are too weak to knock electrons off atoms, like radio and visible light."
+    }
+  ],
+  "links": {},
+  "storage": [
+    {
+      "key": "mobileclear.v1",
+      "what": "Which chapters you have opened, your best quiz scores, and sound on or off."
+    }
+  ],
+  "credits": [
+    {
+      "name": "three.js",
+      "license": "MIT",
+      "url": "https://threejs.org"
+    },
+    {
+      "name": "Geist, Instrument Serif",
+      "license": "SIL OFL 1.1",
+      "url": "https://openfontlicense.org"
+    }
+  ]
+}
